@@ -8,12 +8,14 @@ public class ShoppingBasketTest {
     ShoppingBasket shoppingBasket;
     Item item;
     Item item2;
+    Item item3;
 
     @Before
     public void before() {
         shoppingBasket = new ShoppingBasket();
         item = new Item("Chicken", 5.00, 2);
         item2 = new Item("Whiteboard", 50.00, 3);
+        item3 = new Item("Gold Egg", 100, 4);
     }
 
     @Test
@@ -54,7 +56,7 @@ public class ShoppingBasketTest {
     public void canGetTotalValueOfCart() {
         shoppingBasket.addItemToCart(item);
         shoppingBasket.addItemToCart(item2);
-        assertEquals(55, shoppingBasket.getTotal(), 0.01);
+        assertEquals(55, shoppingBasket.calculateTotal(), 0.01);
     }
 
     @Test
@@ -62,10 +64,24 @@ public class ShoppingBasketTest {
         shoppingBasket.addItemToCart(item);
         shoppingBasket.addItemToCart(item2);
         shoppingBasket.applyBogofDiscount();
-        assertEquals(50, shoppingBasket.getTotal(), 0.01);
+        assertEquals(50, shoppingBasket.calculateTotal(), 0.01);
     }
 
-    
 
+    @Test
+    public void canApplyTenPercentDiscountToOrdersOver20() {
+        shoppingBasket.addItemToCart(item2);
+        shoppingBasket.calculateTotal();
+        shoppingBasket.applyTenPercentDiscountToOrdersOver20();
+        assertEquals(45,shoppingBasket.getCartTotal(), 0.01);
+    }
+
+    @Test
+    public void canGiveCust2PercentOffWithLoyaltyCard() {
+        shoppingBasket.addItemToCart(item3);
+        shoppingBasket.calculateTotal();
+        shoppingBasket.applyLoyaltyDiscount();
+        assertEquals(98, shoppingBasket.getCartTotal(), 0.01);
+    }
 
 }

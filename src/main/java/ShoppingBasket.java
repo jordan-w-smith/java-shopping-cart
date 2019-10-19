@@ -30,11 +30,15 @@ public class ShoppingBasket {
         this.cartTotal = 0;
     }
 
-    public double getTotal() {
+    public double calculateTotal() {
         for (Item item : items) {
             cartTotal += item.getPrice();
         }
         return cartTotal;
+    }
+
+    public double getCartTotal() {
+        return this.cartTotal;
     }
 
     public void applyBogofDiscount() {
@@ -47,12 +51,17 @@ public class ShoppingBasket {
             }
         }
         cartTotal -= value;
-//        Item cheapestItem;
-//        for (Item item : items){
-//            if (item.price < cheapestItem.price) {
-//                cheapestItem = item;
-//            }
-//
-//        }
+    }
+
+    public void applyTenPercentDiscountToOrdersOver20() {
+        double tenPercent = cartTotal / 10;
+        if (cartTotal > 20) {
+            cartTotal -= tenPercent;
+        }
+    }
+
+
+    public void applyLoyaltyDiscount() {
+        cartTotal -= (cartTotal / 100 * 2);
     }
 }
