@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="59f80233-b7f3-450a-85d7-172e6447aedd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ShoppingBasket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ShoppingBasket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ShoppingBasket.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -37,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+            <state relative-caret-position="284">
+              <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,14 +84,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Item.java" />
         <option value="$PROJECT_DIR$/src/test/java/ItemTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="173" />
-    <option name="y" value="80" />
+    <option name="x" value="231" />
+    <option name="y" value="91" />
     <option name="width" value="1644" />
     <option name="height" value="911" />
   </component>
@@ -227,15 +224,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoppingBasketTest_canApplyTenPercentDiscountToOrdersOver20 - 2019.10.19 at 16h 41m 50s.xml">
-      <configuration name="ShoppingBasketTest.canApplyTenPercentDiscountToOrdersOver20" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingBasketTest_canApplyTenPercentDiscountToOrdersOver20 - 2019.10.19 at 16h 46m 06s.xml">
-      <configuration name="ShoppingBasketTest.canApplyTenPercentDiscountToOrdersOver20" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingBasketTest_canApplyTenPercentDiscountToOrdersOver20 - 2019.10.19 at 16h 46m 22s.xml">
-      <configuration name="ShoppingBasketTest.canApplyTenPercentDiscountToOrdersOver20" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShoppingBasketTest_canApplyTenPercentDiscountToOrdersOver20 - 2019.10.19 at 16h 51m 04s.xml">
       <configuration name="ShoppingBasketTest.canApplyTenPercentDiscountToOrdersOver20" configurationId="JUnit" />
     </history-entry>
@@ -257,9 +245,18 @@
     <history-entry file="ShoppingBasketTest_canApplyTenPercentDiscountToOrdersOver20 - 2019.10.19 at 17h 00m 12s.xml">
       <configuration name="ShoppingBasketTest.canApplyTenPercentDiscountToOrdersOver20" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShoppingBasketTest - 2019.10.19 at 17h 08m 07s.xml">
+      <configuration name="ShoppingBasketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingBasketTest - 2019.10.19 at 17h 08m 16s.xml">
+      <configuration name="ShoppingBasketTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingBasketTest - 2019.10.19 at 17h 08m 26s.xml">
+      <configuration name="ShoppingBasketTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="173" y="80" width="1644" height="911" extended-state="0" />
+    <frame x="231" y="91" width="1644" height="911" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.252809" />
@@ -271,12 +268,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992674" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.41880342" />
@@ -311,16 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ShoppingBasket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -331,6 +318,16 @@
             <element signature="e#859#860#0" expanded="true" />
             <element signature="e#1362#1363#0" expanded="true" />
             <element signature="e#1392#1393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -84,4 +84,15 @@ public class ShoppingBasketTest {
         assertEquals(98, shoppingBasket.getCartTotal(), 0.01);
     }
 
+    @Test
+    public void allDiscountsCanBeAdded() {
+        shoppingBasket.addItemToCart(item3);
+        shoppingBasket.addItemToCart(item);
+        shoppingBasket.calculateTotal();
+        shoppingBasket.applyBogofDiscount();
+        shoppingBasket.applyTenPercentDiscountToOrdersOver20();
+        shoppingBasket.applyLoyaltyDiscount();
+        assertEquals(88.2, shoppingBasket.getCartTotal(), 0.1);
+    }
+
 }
